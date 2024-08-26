@@ -2,7 +2,10 @@
 create database proyectogrupo5
 
 use  proyectogrupo5
-
+ 
+SET DATEFORMAT DMY
+GO
+ 
 CREATE TABLE PROVEEDOR (
 (COD_PROVEEDOR INT PRIMARY KEY,
 RUC_PROVEEDOR CHAR(15),
